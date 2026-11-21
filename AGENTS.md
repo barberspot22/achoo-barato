@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Catalog architecture
+- Keep all editable catalog and social configuration in `src/data/catalog.ts`; both home and category pages must derive products from it to prevent diverging listings.
+- Use one dynamic category route and shared catalog components; category slugs, filtering and product counts derive from the same typed data.
+- Keep the catalog frontend-only with explicit demonstration data; this project does not require accounts, checkout or external API integration.
