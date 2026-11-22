@@ -20,7 +20,7 @@ import christmas from '@/assets/product-christmas.asset.json';
 // All prices, previous prices and selections below are DEMONSTRATION DATA,
 // not verified offers. Photos are illustrative. Replace promotionUrl with the
 // actual partner offer before publishing a verified catalog.
-export const site = { name: 'Achou Barato', tagline: 'Achados úteis, escolhidos com cuidado', whatsapp: 'https://wa.me/SEUNUMERO', telegram: 'https://t.me/SEUCANAL' };
+export const site = { name: 'Achou Barato', tagline: 'Achados úteis, escolhidos com cuidado', whatsapp: 'https://chat.whatsapp.com/ICJo8TE0suO8HCspjdObkf?s=cl&p=i&iam=2', telegram: 'https://t.me/+Jy-37TWFql83NTdh' };
 export const categories = [
   { slug: 'cosmeticos', name: 'Cosméticos', detail: 'Seu cuidado diário', description: 'Pequenos cuidados que fazem parte de uma boa rotina.' },
   { slug: 'videogames', name: 'Videogames', detail: 'Hora de dar o play', description: 'Consoles e acessórios para aproveitar seu tempo de jogo.' },
