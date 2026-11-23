@@ -201,3 +201,5 @@
  .product-rail { grid-auto-columns:72%; gap:12px; } .rail-controls { display:none; }
  .benefits { grid-template-columns:1fr; } .footer-band .site-footer { flex-direction:column; gap:20px; }
 }
+.hero-banner { width:100vw; max-width:none; margin-inline:calc(50% - 50vw); margin-top:0 !important; }
+html, body { overflow-x:clip; }
