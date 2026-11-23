@@ -5,7 +5,7 @@ import { CategoryGrid } from '@/components/catalog/categories';
 import { ProductRail, DemoNotice } from '@/components/catalog/product-card';
 import { Button } from '@/components/ui/button';
 import { products, newestProducts, site } from '@/data/catalog';
-import banner from '@/assets/banner-principal-achou-barato.webp.asset.json';
+import banner from '@/assets/achou-barato-capa.webp.asset.json';
 export const Route = createFileRoute('/')({
  head:()=>({meta:[{title:`${site.name} — Achadinhos selecionados para o dia a dia`},{name:'description',content:'Explore 12 categorias de achadinhos, veja os destaques e novidades do Achou Barato e entre nos grupos do WhatsApp e Telegram.'},{property:'og:title',content:`${site.name} — Achadinhos selecionados`},{property:'og:description',content:'Categorias, destaques e novidades em uma loja de achadinhos fácil de explorar.'},{property:'og:type',content:'website'},{name:'twitter:card',content:'summary_large_image'}]}),
  component:Index,
