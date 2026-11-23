@@ -31,5 +31,5 @@ use the editor.
 
 ## Catalog architecture
 - Keep all editable catalog and social configuration in `src/data/catalog.ts`; both home and category pages must derive products from it to prevent diverging listings.
-- Use one dynamic category route and shared catalog components; category slugs, filtering and product counts derive from the same typed data.
+- Use one dynamic category route and shared catalog components; category slugs, images, filtering and counts derive from the same typed data ("em-alta" lists featured products).
 - Keep the catalog frontend-only with explicit demonstration data; this project does not require accounts, checkout or external API integration.
